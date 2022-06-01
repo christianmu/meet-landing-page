@@ -15,7 +15,7 @@
   --gray: #87879d;
 }
 
-body {
+/* body {
   font-family: 'Red Hat Display', sans-serif;
   background-color: var(--main-bg);
   display: flex;
@@ -28,4 +28,4 @@ h1 {
   font-weight: 600;
   font-size: 22px;
   margin-top: 6.9%;
-}
+} */
