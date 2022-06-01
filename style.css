@@ -15,17 +15,143 @@
   --gray: #87879d;
 }
 
-/* body {
+body {
+  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
-  background-color: var(--main-bg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #fafafa;
+  color: #87879d;
+}
+
+header {
+  margin-top: 48px;
+  margin-bottom: 54px;
 }
 
 h1 {
-  font-weight: 600;
-  font-size: 22px;
-  margin-top: 6.9%;
-} */
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: #28283d;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #28283d;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 16px;
+  color: #4d96a9;
+  line-height: 26px;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+}
+
+main {
+  width: 50%;
+}
+
+p {
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  width: 87%;
+  margin-bottom: 32px;
+}
+
+button {
+  height: 58px;
+  width: 193px;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+footer {
+  background-image: url('pics/mobile/image-footer.jpg');
+  background-size: cover;
+  margin-top: 144px;
+  padding-top: 92px;
+  padding-bottom: 72px;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+  width: 87%;
+}
+
+.btn-download-cyan {
+  background-color: #4d96a9;
+}
+
+.btn-download-cyan span {
+  color: #8fe3f9;
+}
+
+.btn-download-purple {
+  background-color: #855fb1;
+}
+
+.btn-download-purple span {
+  color: #d9b8ff;
+}
+
+.btn-what {
+  width: 139px;
+  margin-top: 16px;
+  background-color: #855fb1;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero_image {
+  display: block;
+  width: 110%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anpass {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pictures {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  margin-top: 268px;
+  margin-bottom: 64px;
+}
+
+.bottom_24 {
+  margin-bottom: 24px;
+}
+
+.bottom_32 {
+  margin-bottom: 32px;
+}
+
+.font_mobile {
+  font-size: 16px;
+}
