@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cyan-dark: #4d96a9;
+  --cyan-light: #8fe3f9;
+  --purple-dark: #855fb1;
+  --purple-light: #d9b8ff;
+  --black: #28283d;
+  --gray: #87879d;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 6.9%;
+}
