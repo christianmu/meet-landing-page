@@ -193,6 +193,41 @@ button {
 
 /****************** Tablet *****************************/
 @media only screen and (min-width: 481px) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-what {
+    margin: 0px 8px;
+  }
+
+  .btn-download-cyan {
+    margin: 0px 8px;
+  }
+
+  .pictures {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 11px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .p_tablet_1 {
+    width: 60%;
+  }
+
+  .p_tablet_2 {
+    width: 75%;
+  }
 }
 
 /****************** Desktop ****************************/
