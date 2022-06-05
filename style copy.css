@@ -193,20 +193,48 @@ button {
   visibility: hidden;
 }
 
-.group-aside {
-  display: none;
+.groupchat::before {
+  content: url('pics/desktop/image-hero-left.png');
 }
 
 /****************** Tablet *****************************/
 @media only screen and (min-width: 481px) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-what {
+    margin: 0px 8px;
+  }
+
+  .btn-download-cyan {
+    margin: 0px 8px;
+  }
+
   .pictures {
-    width: 100%;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: ;
-    gap: 25px;
-    margin-top: 268px;
-    margin-bottom: 64px;
+    grid-template-rows: none;
+    gap: 11px;
+    margin-bottom: 100px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .p_tablet_1 {
+    width: 60%;
+  }
+
+  .p_tablet_2 {
+    width: 75%;
   }
 }
 
@@ -216,46 +244,57 @@ button {
     font-size: 18px;
   }
 
-  .hero {
+  .groupchat {
+    padding: 0 100px;
+  }
+
+  .hero_image {
     display: none;
   }
 
-  .sample_group {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+  .group_container {
+    display: flex;
+    justify-content: center;
   }
 
-  .groupchat {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .group {
+    display: flex;
+    margin: 0 auto;
   }
 
-  .group-aside {
-    display: block;
+  .group::before {
+    content: url('pics/desktop/image-hero-left.png');
   }
 
-  .group_items {
-    width: 100%;
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+  .group::after {
+    content: url('pics/desktop/image-hero-right.png');
   }
 
-  .group_items_fit {
-    width: 100%;
+  .group_none {
+    position: static;
+    width: 130%;
+    visibility: visible;
   }
 
   .footer_image {
     background-image: url('pics/desktop/image-footer.jpg');
+  }
+
+  .footer_content {
     margin: auto;
+    width: 87%;
     display: flex;
     align-items: center;
   }
 
   .p_tablet_2 {
     margin: 0 8%;
+  }
+
+  .pictures {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+    gap: 3%;
   }
 
   .sample_pictures {
@@ -268,13 +307,5 @@ button {
 
   .font_mobile {
     font-size: 18px;
-  }
-
-  .bottom_24 {
-    padding: 6.5%;
-  }
-
-  .btn_padding_right {
-    padding: 6.5%;
   }
 }
